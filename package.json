@@ -1,6 +1,6 @@
 {
   "name": "magik-hooks",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "TIny utility to manage git hooks using NodeJS",
   "main": "src/magik-hooks.js",
   "scripts": {
