@@ -7,9 +7,29 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "git hook",
+    "applypatch-msg",
+    "commit-msg",
+    "dev",
+    "development",
     "git",
-    "utilily"
+    "git hook",
+    "hook",
+    "hooks",
+    "pre-applypatch",
+    "pre-commit",
+    "pre-push",
+    "pre-rebase",
+    "pre-receive",
+    "prepare-commit-msg",
+    "post-applypatch",
+    "post-checkout",
+    "post-commit",
+    "post-merge",
+    "post-receive",
+    "update",
+    "utilily",
+
+
   ],
   "author": "Bjørn Wikkeling",
   "license": "MIT"

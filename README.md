@@ -1,5 +1,7 @@
 magik-hooks
 ===========
+[![NPM version](https://badge.fury.io/js/magik-hooks.svg)](http://badge.fury.io/js/magik-hooks)
+
 Tiny utility to manage git hooks using Node. It can create, update or remove a 
 git hook. 
 
