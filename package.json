@@ -4,7 +4,7 @@
   "description": "TIny utility to manage git hooks using NodeJS",
   "main": "src/magik-hooks.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint ./src && tape './src/**/*.spec.js'"
   },
   "keywords": [
     "applypatch-msg",
@@ -32,5 +32,9 @@
     "utilily"
   ],
   "author": "Bjørn Wikkeling",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "2.13.1",
+    "tape": "4.6.0"
+  }
 }

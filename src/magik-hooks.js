@@ -46,7 +46,7 @@ function hasMagikHook(filePath, id) {
  * @returns {string}
  */
 function escapeRegExp(s) {
-    return s.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
+    return s.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, '\\$&');
 }
 
 /**
@@ -113,7 +113,7 @@ function getGitHooksDirectory() {
  */
 function writeFile(fileName, data) {
     fs.writeFileSync(fileName, data);
-    fs.chmodSync(fileName, 0755);
+    fs.chmodSync(fileName, '0755');
 }
 
 /**
@@ -126,7 +126,7 @@ function writeFile(fileName, data) {
  */
 function appendFile(fileName, data){
     fs.appendFileSync(fileName, data);
-    fs.chmodSync(fileName, 0755);
+    fs.chmodSync(fileName, '0755');
 }
 
 /**
