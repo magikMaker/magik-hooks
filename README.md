@@ -2,13 +2,15 @@ magik-hooks
 ===========
 [![NPM version](https://badge.fury.io/js/magik-hooks.svg)](http://badge.fury.io/js/magik-hooks)
 
-Tiny utility to manage git hooks using Node. It can create, update or remove a 
-git hook. 
+Tiny utility to manage [git hooks](http://git-scm.com/docs/githooks) 
+using [NodeJS](http://nodejs.org/). It can create, update or remove a git hook. 
 
 Install
 -------
 Install this in your project like this:
-`$ npm install --save-dev magik-hooks`
+```bash
+$ npm install --save-dev magik-hooks
+```
 
 Usage
 -----
@@ -32,7 +34,9 @@ magikHooks.remove('pre-commit'[, identifier]);
 Uninstall
 ---------
 To uninstall, simply type this on the command line:
-`$ npm uninstall --save-dev magik-hooks`
+```bash
+$ npm uninstall --save-dev magik-hooks
+```
 
 License
 =======

@@ -1,7 +1,7 @@
 {
   "name": "magik-hooks",
-  "version": "1.0.0",
-  "description": "TIny utility to manage git hooks using JavaScript (or Node)",
+  "version": "1.0.1",
+  "description": "TIny utility to manage git hooks using NodeJS",
   "main": "src/magik-hooks.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
