@@ -46,7 +46,6 @@ function hasMagikHook(filePath, id) {
  * @returns {string}
  */
 function escapeRegExp(s) {
-    // return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
     return s.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
 }
 
@@ -208,8 +207,6 @@ module.exports = {
         if(fs.existsSync(filePath) && hasMagikHook(filePath, id)) {
             removeMagikHook(filePath, id);
         }
-
-        // console.log('ffff', fs.existsSync(filePath),filePath, lines);
 
         if(fs.existsSync(filePath)) {
             appendFile(filePath, lines.join('\n'));
