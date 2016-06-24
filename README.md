@@ -20,9 +20,9 @@ After installation, you can use this package in your code like this:
 const magikHooks = require('magik-hooks');
 
 // create a new hook, assuming the variable `commands` holds the actual 
-// commands as a string. Optionally provide an `identifier` so the hook can be 
-// removed easily at a later time. (In case you're running multiple scripts 
-//from one git hook
+// commands as a string. Optionally provide an `identifier` so the hook can 
+// be removed easily at a later time. (In case you're running multiple scripts 
+// from one git hook
 magikHooks.create('pre-commit', commands[, identifier]);
 
 // removes a hook, optionally provide an identifier so only that particular 
