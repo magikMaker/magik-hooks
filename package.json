@@ -1,6 +1,6 @@
 {
   "name": "magik-hooks",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Tiny utility to manage git hooks in NodeJS",
   "main": "src/magik-hooks.js",
   "scripts": {
@@ -31,6 +31,14 @@
     "update",
     "utilily"
   ],
+  "homepage": "https://github.com/magikMaker/magik-hooks",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:magikMaker/magik-hooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magikMaker/magik-hooks/issues"
+  },
   "author": "Bjørn Wikkeling",
   "license": "MIT",
   "devDependencies": {
