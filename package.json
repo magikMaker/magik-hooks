@@ -8,6 +8,7 @@
   },
   "keywords": [
     "applypatch-msg",
+    "commit",
     "commit-msg",
     "dev",
     "development",
@@ -26,6 +27,7 @@
     "post-commit",
     "post-merge",
     "post-receive",
+    "push",
     "update",
     "utilily"
   ],
