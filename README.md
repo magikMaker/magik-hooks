@@ -2,8 +2,8 @@ magik-hooks
 ===========
 [![NPM version](https://badge.fury.io/js/magik-hooks.svg)](http://badge.fury.io/js/magik-hooks)
 
-Tiny utility to manage [git hooks](http://git-scm.com/docs/githooks) 
-using [NodeJS](http://nodejs.org/). It can create, update or remove a git hook. 
+Tiny utility to manage [git hooks](https://git-scm.com/docs/githooks) 
+using [Node.js](http://nodejs.org/). It can create, update or remove a git hook. 
 
 Install
 -------
@@ -21,12 +21,12 @@ const magikHooks = require('magik-hooks');
 
 // create a new hook, assuming the variable `commands` holds the actual 
 // commands as a string. Optionally provide an `identifier` so the hook can be 
-// removed easily at a later time. (In case you're running multiple scripts from
-// one git hook
+// removed easily at a later time. (In case you're running multiple scripts 
+//from one git hook
 magikHooks.create('pre-commit', commands[, identifier]);
 
-// removes a hook, optionally provide an identifier so only that particular hook
-// will be removed.
+// removes a hook, optionally provide an identifier so only that particular 
+// hook will be removed.
 magikHooks.remove('pre-commit'[, identifier]);
 
 ```
@@ -41,6 +41,7 @@ $ npm uninstall --save-dev magik-hooks
 License
 =======
 
+```text
 Copyright (C) 2016 Bjørn Wikkeling (magikMaker)
 
 
