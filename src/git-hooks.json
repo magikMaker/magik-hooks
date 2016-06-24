@@ -1,0 +1,16 @@
+[
+  "applypatch-msg",
+  "commit-msg",
+  "pre-applypatch",
+  "pre-commit",
+  "pre-push",
+  "pre-rebase",
+  "pre-receive",
+  "prepare-commit-msg",
+  "post-applypatch",
+  "post-checkout",
+  "post-commit",
+  "post-merge",
+  "post-receive",
+  "update"
+]
