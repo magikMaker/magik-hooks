@@ -27,9 +27,7 @@
     "post-merge",
     "post-receive",
     "update",
-    "utilily",
-
-
+    "utilily"
   ],
   "author": "Bjørn Wikkeling",
   "license": "MIT"
