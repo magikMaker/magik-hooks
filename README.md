@@ -9,7 +9,7 @@ Install
 -------
 Install this in your project like this:
 ```bash
-$ npm install --save-dev magik-hooks
+$ npm install --save magik-hooks
 ```
 
 Usage
@@ -35,7 +35,7 @@ Uninstall
 ---------
 To uninstall, simply type this on the command line:
 ```bash
-$ npm uninstall --save-dev magik-hooks
+$ npm uninstall --save magik-hooks
 ```
 
 License
