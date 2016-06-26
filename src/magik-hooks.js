@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * Handles the creates and removal of Git hooks
  */

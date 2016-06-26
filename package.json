@@ -16,6 +16,7 @@
     "git hook",
     "hook",
     "hooks",
+    "magikMaker",
     "pre-applypatch",
     "pre-commit",
     "pre-push",

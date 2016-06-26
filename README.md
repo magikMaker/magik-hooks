@@ -41,7 +41,6 @@ $ npm uninstall --save magik-hooks
 License
 =======
 
-```text
 Copyright (C) 2016 Bjørn Wikkeling (magikMaker)
 
 
