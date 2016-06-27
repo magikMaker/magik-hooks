@@ -91,7 +91,7 @@ function getGitHooksDirectory() {
             responseObject = exec('git rev-parse --git-dir');
         }
         catch(e){
-            process.stdout.write(`${ANSI_COLOURS.RED}Error while trying to retreive the Git Hooks folder:\n${e.toString(), ANSI_RESET}\r\n`);
+            process.stdout.write(`${ANSI_COLOURS.RED}Error while trying to retrieve the Git Hooks folder:\n${e.toString(), ANSI_RESET}\r\n`);
             process.exit(1);
         }
 
