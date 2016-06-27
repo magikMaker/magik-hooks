@@ -44,8 +44,8 @@ function hasMagikHook(filePath, id) {
  * Escapes a string so it can be used in a regular Expression
  *
  * @access private
- * @param s
- * @returns {string}
+ * @param {string} s the string to escape
+ * @returns {string} the escaped string
  */
 function escapeRegExp(s) {
     return s.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, '\\$&');
@@ -194,9 +194,9 @@ module.exports = {
      * Creates a Git Hook
      *
      * @access public
-     * @param directory
-     * @param name
-     * @param cmd
+     * @param {string} hook the Git hook to use
+     * @param {string} commands the shell commands to add to the Git hook
+     * @param {string} [id] optional ID to identify the specific code block
      */
     create: function(hook, commands, id) {
         var filePath = getFilePathFromHook(hook);
@@ -222,8 +222,8 @@ module.exports = {
      * Removes a hook from a git hook file.
      *
      * @access public
-     * @param directory
-     * @param name
+     * @param {string} hook the Git hook to use
+     * @param {string} [id] optional ID to identify the specific code block
      */
     remove: function(hook, id) {
         var filePath = path.join(getGitHooksDirectory(), hook);
