@@ -4,6 +4,7 @@ magik-hooks
 
 Tiny utility to manage [git hooks](https://git-scm.com/docs/githooks) 
 using [Node.js](http://nodejs.org/). It can create, update or remove a git hook. 
+The tests are run by CircleCI.
 
 Install
 -------
