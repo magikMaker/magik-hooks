@@ -38,10 +38,16 @@ To uninstall, simply type this on the command line:
 $ npm uninstall --save magik-hooks
 ```
 
+Windows
+-------
+Please note that this package only runs on macOS and BSD/*nix type systems. If
+you would like to run this on an unsupported OS, please 
+[create a ticket](https://github.com/magikMaker/magik-hooks/issues).
+
 License
 =======
 
-Copyright (C) 2016 Bjørn Wikkeling (magikMaker)
+Copyright (C) 2016 - 2018 Bjørn Wikkeling (magikMaker)
 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of 
